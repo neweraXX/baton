@@ -1,0 +1,51 @@
+1
+00:00:00,250 --> 00:00:04,639
+Shift's over. Who keeps the promise to call back?
+
+2
+00:00:06,000 --> 00:00:11,368
+Ha hands over three cases, with promises for 10:00 and 11:00.
+
+3
+00:00:13,000 --> 00:00:30,187
+Ha tags Baton. Powered by Claude Code, it reads the conversation and drafts a structured handover ticket. Ledger records version one. Ledger runs on Node.js, without AI. The model proposes; code records.
+
+4
+00:00:31,000 --> 00:00:32,824
+Claim accepted.
+
+5
+00:00:33,074 --> 00:00:50,956
+Dung has personally claimed the case. A name in a summary does not create ownership: each incoming owner must claim their own cases. Ha requests a review. Then the customer moves the callback from 10:00 to 09:30. Version one still shows ten.
+
+6
+00:00:55,000 --> 00:00:59,454
+Ha invites Checker into the Switch room. No briefing.
+
+7
+00:01:00,000 --> 00:01:22,550
+Checker runs on Codex. Joining mid-handover, it reads the shared room history and standard operating procedure through Switch. No one repeats the brief. It spots the outdated 10:00 callback and two unclaimed cases, then asks Baton for version two. Switch gives a newly invited agent the context to contribute immediately.
+
+8
+00:01:27,000 --> 00:01:42,072
+Baton issues version two with 09:30. Ledger applies rule three: the promised time changed after Dung's earlier claim, so that claim needs renewal. Dung must explicitly accept the updated promise by claiming again.
+
+9
+00:01:45,000 --> 00:01:47,509
+Rule two rejects version one.
+
+10
+00:01:49,000 --> 00:01:58,683
+Dung personally claims all three cases on version two, then requests status. Only now does Ledger confirm: handover complete.
+
+11
+00:02:00,000 --> 00:02:13,852
+Dung asks what to tell the customer about SR-1077. Baton explains: NovaSoft's patch is still pending. Call at 09:30, and give an update without promising when the fix will arrive.
+
+12
+00:02:18,000 --> 00:02:26,603
+Eighteen scenarios passed 92 checks. Mutations caught. Ledger missed three risks outside its rules.
+
+13
+00:02:26,853 --> 00:02:36,621
+Agent accuracy remains unmeasured. Models propose, code enforces, humans own the promise. Built on Switch.

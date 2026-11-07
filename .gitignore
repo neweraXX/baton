@@ -1,0 +1,26 @@
+# Bi mat va trang thai chay tren may
+.env
+*.env
+.env.*
+!*.env.example
+ledger/state.json
+ledger/state.json.tmp
+demo/.env.agents
+demo/video/profiles.json
+
+# File nang / tam
+*.avi
+*.mp4
+demo/rehearsal-*.md
+ref/
+node_modules/
+
+# Log va ket qua tho cua Codex (giu prompt)
+codex/*.log
+codex/SESSION
+
+# Ghi chu noi bo cua Ha, KHONG public (thong tin cong viec, duong dan may, tai khoan phu)
+CLAUDE.md
+PROGRESS.md
+notes/
+codex-brainstorm-switch.md
