@@ -82,6 +82,6 @@ The question I want Baton to answer is simple: who accepted this promise, at thi
 
 Watch the demo: https://youtu.be/DhnId5jD2oQ
 
-Explore the repository: [REPO_LINK]
+Explore the repository: https://github.com/neweraXX/baton
 
 #HowISwitch
