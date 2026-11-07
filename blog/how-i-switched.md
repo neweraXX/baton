@@ -10,6 +10,8 @@ A conversation can contain all the facts and still leave responsibility unclear.
 
 For WeMakeDevs’ “Flip the Switch” hackathon, I built Baton around that gap. The demo cases are fictional; the operational question is the one I wanted to explore.
 
+Transparency note: I set the goals and made the key calls, such as when a claim counts as stale. AI coding agents (Claude Code and Codex) wrote most of the code and the first draft of this post, and reviewed each other’s work. The rules, tests and eval numbers below can be reproduced from the repository.
+
 **LLM proposes, code enforces, humans own the promise.**
 
 Baton has three participants. `@baton`, running through Claude Code, drafts a versioned handover ticket from the conversation. `@checker`, running through Codex, reviews it against the conversation, shared procedures, and ledger replies. `@ledger` is a custom Node.js agent with no LLM.
