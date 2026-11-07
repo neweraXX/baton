@@ -220,7 +220,7 @@ Optional video tooling is in [demo/video](demo/video), with an [English presenta
 - Human-only claims and baton-only ticket publication are currently instruction-level restrictions. The bot accepts valid blocks from other senders and does not reject agent claimants—the rehearsal relies on this. Next: enforce sender roles and stable identity allowlists.
 - Times are minutes within one UTC+7 handover day. Cross-day promises need manual review; empty tickets are unsupported.
 - State is a local JSON file. There is no automatic WebSocket reconnect, ownership-transfer command, or scheduled reminder loop. Restarting the bot reloads saved state, but missed-message recovery is not established.
-- Next evaluation work: measure extraction accuracy and checker detection across all scenarios, including failures. A clean-clone setup verification remains unrecorded.
+- Next evaluation work: measure extraction accuracy and checker detection across all scenarios, including failures. Verified from a fresh clone on 2026-11-07: `node --test` (39/39) and `node eval/run-ledger-eval.js` (18/18) pass on Windows; the full Switch + Discord setup was not re-run from a clean clone.
 
 ## Credits
 
