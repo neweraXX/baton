@@ -80,7 +80,7 @@ What I have built is a small workflow where drafting, checking, and accepting re
 
 The question I want Baton to answer is simple: who accepted this promise, at this time?
 
-Watch the demo: [VIDEO_LINK]
+Watch the demo: https://youtu.be/DhnId5jD2oQ
 
 Explore the repository: [REPO_LINK]
 
