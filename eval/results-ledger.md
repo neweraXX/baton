@@ -1,6 +1,6 @@
 # Kết quả eval @ledger (tự động)
 
-Chạy lúc 2026-11-07T03:11:13.393Z bằng `node eval/run-ledger-eval.js`. Nạp khối BATON **đúng** (đáp án) vào code ledger thật, so với `eval/expected-ledger.json`. Phần này đo **luật cứng**, chưa đo LLM trích khối.
+Chạy lúc 2026-11-07T03:32:32.138Z bằng `node eval/run-ledger-eval.js`. Nạp khối BATON **đúng** (đáp án) vào code ledger thật, so với `eval/expected-ledger.json`. Phần này đo **luật cứng**, chưa đo LLM trích khối.
 
 **18/18 kịch bản đạt.**
 

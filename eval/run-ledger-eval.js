@@ -120,7 +120,8 @@ function runCommandStep(ledger, nowMin, step) {
 }
 
 function runScenario(scenarioId, spec) {
-  const markdown = fs.readFileSync(findScenarioFile(scenarioId), 'utf8');
+  // Windows clone ra file CRLF; chuan hoa ve LF de mau tim khoi code khop (loi 0/18 khi clone sach, 07/11)
+  const markdown = fs.readFileSync(findScenarioFile(scenarioId), 'utf8').replace(/\r\n/g, '\n');
   const rules = (markdown.match(/^- rules: (.*)$/m) || [])[1] || '?';
   const blocks = readCorrectBlocks(markdown);
   const ledger = createLedger();
